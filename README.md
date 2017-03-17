@@ -1,3 +1,15 @@
+# This was forked from dlsniper/docker-intellij
+
+## Cursive IDE
+
+I'm really finding the contained, isolated Docker IDE configuration to be appealing and am going to repurpose this for
+Clojure development.
+
+I was initially using docker to host my project and REPL but I want to jump to using as much as possible within the
+container.
+
+--------------------------------
+
 # Docker image for IntelliJ IDEA Community, Go and Go plugin
 
 [![Circle CI](https://circleci.com/gh/dlsniper/docker-intellij.svg?style=svg)](https://circleci.com/gh/dlsniper/docker-intellij)

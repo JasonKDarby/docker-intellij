@@ -1,1 +1,1 @@
-Docker image for IntelliJ IDEA Community, Go and Go plugin
+Docker image for Cursive IDE

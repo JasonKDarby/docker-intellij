@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 echo 'This will take a lot of time...'
-docker build -t dlsniper/docker-intellij .
+docker build -t jasonkdarby/docker-cursive-ide .
