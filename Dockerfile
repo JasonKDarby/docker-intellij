@@ -12,6 +12,10 @@ RUN sed 's/main$/main universe/' -i /etc/apt/sources.list && \
         libxtst-dev libgtk2.0-0 libcanberra-gtk-module unzip wget && \
     echo 'Installing JDK 8' && \
     apt-get install -qq -y --fix-missing openjdk-8-jdk && \
+    echo 'Installing Leiningen' && \
+    wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein -O /usr/local/bin/lein && \
+    chmod a+x /usr/local/bin/lein && \
+    lein && \
     echo 'Cleaning up' && \
     apt-get clean -qq -y && \
     apt-get autoclean -qq -y && \
